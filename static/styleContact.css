@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    margin: 12px 0;
+}
+
+.container{
+    min-height: 86vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.myInput{
+    padding: 8px;
+    width: 40%;
+    margin: 5px;
+    font-size: 16px;
+    border: 2px solid #edb4b4;
+    border-radius: 8px;
+    outline: none;
+}
+.btn{
+    padding: 9px 16px;
+    font-size: 14px;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: white;
+    background-color: #df2e2e;
+    cursor: pointer;
+    margin: 10px;
+}
